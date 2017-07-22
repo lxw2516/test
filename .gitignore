@@ -4,4 +4,21 @@ node_modules
 
 ##空文件夹不会被提交
 一般会在空文件夹下，创建。gitkeep,保证空文件夹也可以被提交
-##一般每个
+##一般每个项目都会有README.MD文件
+
+git remote add
+git
+git remote rm origin
+
+如果线上线下版本不统一
+git pull origin  分支名
+强制覆盖掉线上文件
+git push origin master --force
+
+发布静态页
+发布到指定的分支  gh-page
+将要发布的静态页推送到此分支
+git checkout -b gh-pages
+git add .
+git commit -m 'static page
+git push origin'
